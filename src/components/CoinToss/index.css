@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.head {
+  width: 200px;
+}
+.tail {
+  width: 200px;
+}
+.container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.card {
+  background-color: white;
+  max-width: 80%;
+  max-height: 70%;
+  background-size: cover;
+  border-radius: 15px;
+}
+.result {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+p {
+  margin-right: 10px;
+}
+button:hover {
+  background-color: #e2a139;
+}
+.button {
+  background-color: #e2a139;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  color: #a35200;
+}
+h1 {
+  color: #a35200;
+}
